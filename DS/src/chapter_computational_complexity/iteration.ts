@@ -58,7 +58,7 @@ const whileLoopII = (n: number): number => {
 
 /**
  * Generates a string representation of nested for loops.
- * 
+ *
  * @param n - The number of iterations for the outer and inner loops.
  * @returns A string representation of the nested for loops.
  */
@@ -89,3 +89,5 @@ console.log(`WhileLoopII sum res = ${res}`);
 
 res = nestedForLoop(n);
 console.log(`nestedForLoop res = ${res}`);
+
+export {};
