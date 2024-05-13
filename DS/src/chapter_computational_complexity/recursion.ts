@@ -2,7 +2,7 @@
  * @Author: zhangyupeng zhangyupeng@haotaisoft.com
  * @Date: 2024-05-09
  * @LastEditors: zhangyupeng zhangyupeng@haotaisoft.com
- * @LastEditTime: 2024-05-09
+ * @LastEditTime: 2024-05-10
  * @FilePath: \DS\src\chapter_computational_complexity\recursion.ts
  * @Description: 递归
  */
@@ -86,3 +86,5 @@ console.log(`斐波那契数列的第 ${n} 项结果 res = ${res}`);
 
 res = forLoopRecur(n) // 5 + 4 + 3 + 2 + 1 = 15
 console.log(`使用迭代模拟递归的求和结果 res = ${res}`)
+
+export {};
