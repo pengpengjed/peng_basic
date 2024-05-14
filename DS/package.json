@@ -1,12 +1,14 @@
 {
-  "private": true,
-  "type": "commonjs",
-  "scripts": {
-    "check": "tsc"
-  },
-  "dependencies": {
-    "@types/node": "^20.12.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  }
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "check": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.7",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.2"
+    }
 }

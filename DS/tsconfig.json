@@ -5,9 +5,8 @@
         "moduleResolution": "node",
         "types": ["@types/node"],
         "noEmit": true,
-        "target": "esnext"
+        "target": "esnext",
     },
-    "include": ["src/**/*.ts", "src/**/*.d.ts", "types/**/*.d.ts"],
-    "exclude": ["node_modules"],
-    "ts-node": { "esm": true }
+    "include": ["src/chapter_*/*.ts"],
+    "exclude": ["node_modules"]
 }
